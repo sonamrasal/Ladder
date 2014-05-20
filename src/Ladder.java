@@ -1,21 +1,21 @@
 /*
- * Class Snake - holds mouth and tail locations of snakes
+ * Class Ladder - holds starting and ending location of ladders
  */
 
-public class Snake {
-	private Position tail; //tail location of the snake
-	private Position mouth; //mouth location of the snake
+public class Ladder {
+	private Position start; //starting location  of ladder
+	private Position end; //ending location of ladder
 	
-	public Snake(Position tail, Position mouth) {
-		this.tail = tail;
-		this.mouth = mouth;
+	public Ladder(Position start, Position end) {
+		this.start = start;
+		this.end = end;
 	}
 
-	public Position getTail() {
-		return tail;
+	public Position getStart() {
+		return start;
 	}
 
-	public Position getMouth() {
-		return mouth;
+	public Position getEnd() {
+		return end;
 	}
 }
